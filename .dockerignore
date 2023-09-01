@@ -1,0 +1,24 @@
+# folders
+.git
+.devcontainer
+.github
+.husky
+.idea
+.vscode
+Dockerfile*
+LICENSE
+node_modules
+test
+
+# files
+.dockerignore
+.env
+eslint*
+.gitignore
+.(yarn|npm|nvm)rc
+*.md
+docker-compose*
+npm-debug.log
+package-lock.json
+
+src/data
