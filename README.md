@@ -1,6 +1,6 @@
 # WebGIS Server
 
-[![docker publish](https://img.shields.io/docker/pulls/karasushin/webgis-server?branch=master&label=docker%20publish&logo=docker)](https://hub.docker.com/r/karasushin/gis-server)
+[![docker publish](https://img.shields.io/docker/pulls/karasushin/webgis-server?branch=master&label=docker%20publish&logo=docker)](https://hub.docker.com/r/karasushin/webgis-server)
 ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/karasushin/webgis-server/latest?logo=docker)
 ![GitHub](https://img.shields.io/github/license/karasushin/WebGIS-Server)
 
