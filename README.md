@@ -15,8 +15,8 @@ a gis tiledata server powered by @nestJS
 
 clone the project to your local machine.
 ```bash
-git clone git@github.com:KarasuShin/gis-server.git
-cd gis-server
+git clone git@github.com:KarasuShin/WebGIS-Server.git
+cd WebGIS-Server
 ```
 
 install dependencies.
@@ -35,15 +35,15 @@ node dist/main.js
 ```
 or use pm2
 ```bash
-pm2 start dist/main.js --name gis-server
+pm2 start dist/main.js --name webgis-server
 ```
 
 ### Docker
 pull docker image.
 ```bash
-docker pull karasushin/gis-server
+docker pull karasushin/webgis-server
 ```
 start a container
 ```bash
-docker run -d --name gis-server -v -p 3000:3000 -v /path/to/data:/app/data karasushin/gis-server
+docker run -d --name webgis-server -v -p 3000:3000 -v /path/to/data:/app/data karasushin/webgis-server
 ```
