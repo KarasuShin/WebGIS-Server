@@ -11,9 +11,6 @@ dependencies:
   '@mapbox/glyph-pbf-composite':
     specifier: ^0.0.3
     version: 0.0.3
-  '@mapbox/mbtiles':
-    specifier: ^0.12.1
-    version: 0.12.1
   '@nestjs/common':
     specifier: ^10.0.0
     version: 10.2.3(reflect-metadata@0.1.13)(rxjs@7.8.1)
@@ -52,9 +49,6 @@ devDependencies:
   eslint-define-config:
     specifier: ^1.23.0
     version: 1.23.0
-  mbtiles:
-    specifier: link:@types/@mapbox/mbtiles
-    version: link:@types/@mapbox/mbtiles
   source-map-support:
     specifier: ^0.5.21
     version: 0.5.21
@@ -350,20 +344,6 @@ packages:
       protocol-buffers: 2.7.0
     dev: false
 
-  /@mapbox/mbtiles@0.12.1:
-    resolution: {integrity: sha512-yoK9GjLNHyOpxG+IG+JB4SGeiJeOHmiO1/HzTexplsBZi8MzZMck0l/fd3+t1uUyqgv4BxIn3D5FDtsVCaAr3g==}
-    engines: {node: '>= 10'}
-    dependencies:
-      '@mapbox/sphericalmercator': 1.1.0
-      '@mapbox/tiletype': 0.3.1
-      d3-queue: 3.0.7
-      sqlite3: 5.1.6
-    transitivePeerDependencies:
-      - bluebird
-      - encoding
-      - supports-color
-    dev: false
-
   /@mapbox/node-pre-gyp@1.0.11:
     resolution: {integrity: sha512-Yhlar6v9WQgUp/He7BdgzOz8lqMQ8sU+jkCq7Wx8Myc5YFJLbEe7lgui/V7G1qB1DJykHSGwreceSaD60Y0PUQ==}
     hasBin: true
@@ -380,11 +360,6 @@ packages:
     transitivePeerDependencies:
       - encoding
       - supports-color
-    dev: false
-
-  /@mapbox/sphericalmercator@1.1.0:
-    resolution: {integrity: sha512-pEsfZyG4OMThlfFQbCte4gegvHUjxXCjz0KZ4Xk8NdOYTQBLflj6U8PL05RPAiuRAMAQNUUKJuL6qYZ5Y4kAWA==}
-    hasBin: true
     dev: false
 
   /@mapbox/sphericalmercator@1.2.0:
@@ -1673,10 +1648,6 @@ packages:
     engines: {node: '>=4'}
     hasBin: true
     dev: true
-
-  /d3-queue@3.0.7:
-    resolution: {integrity: sha512-2rs+6pNFKkrJhqe1rg5znw7dKJ7KZr62j9aLZfhondkrnz6U7VRmJj1UGcbD8MRc46c7H8m4SWhab8EalBQrkw==}
-    dev: false
 
   /debug@2.6.9:
     resolution: {integrity: sha512-bC7ElrdJaJnPbAP+1EotYvqZsb3ecl5wi6Bfi6BJTUcNowp6cvspg0jXznRTKDjm/E7AdgFBVeAPVMNcKGsHMA==}
